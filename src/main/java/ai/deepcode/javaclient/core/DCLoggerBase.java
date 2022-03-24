@@ -53,7 +53,7 @@ public abstract class DCLoggerBase {
               + " more symbols were cut]";
     }
 
-   
+
 
     final String[] lines = message.split("[\n\r]");
     for (int i = 0; i < lines.length; i++) {
